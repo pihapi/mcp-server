@@ -9,4 +9,5 @@ func RegisterAllTools(s *server.MCPServer) {
 	s.RegisterTool("get_weather", NewWeatherTool())
 	s.RegisterTool("get_time", NewTimeTool())
 	s.RegisterTool("calculate", NewCalculatorTool())
+	s.RegisterTool("fetch_webpage", NewWebPageTool())
 }
