@@ -1,1 +1,1 @@
-module MPC-server
+module mcp-server

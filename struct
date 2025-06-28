@@ -1,0 +1,12 @@
+mcp-server/
+├── main.go
+├── go.mod
+├── server/
+│   ├── server.go
+│   └── types.go
+├── tools/
+│   ├── registry.go
+│   ├── weather.go
+│   ├── time.go
+│   └── calculator.go
+└── build.bat
